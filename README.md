@@ -37,8 +37,10 @@ learn-trino/
 
 ## 🔧 Setup Steps
 1. Clone the Repository
+```
 git clone https://github.com/yourusername/trino-analytics-lab.git
 cd trino-analytics-lab
+```
 
 2. Configure Database Catalogs (MySQL & PostgreSQL)
     Edit the catalog files inside trino/etc/catalog/:
@@ -48,9 +50,19 @@ cd trino-analytics-lab
     Update each file with your own connection details (Host,Port,Database Name,Username,Password)
 
 3. Start Trino Using Docker Compose
+```
 docker-compose up -d
+```
 
-4. Access the Trino Web UI at: http://localhost:8080
+4. Access the Trino Web UI 
+```
+http://localhost:8080
+```
+
+5. Connect Trino Using DBeaver (Opsional)
 
 ---
-Feel free to discuss, Cheers 🍻.
+Feel free to discuss 🍻
+
+Regards,
+Rizqi Prima
