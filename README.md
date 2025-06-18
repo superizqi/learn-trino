@@ -18,16 +18,19 @@ This lab demonstrates a practical scenario:
 
 ## 📂 Project Structure
 
-trino-learn/
+```
+learn-trino/
 ├── docker-compose.yaml
 └── trino/
-└── etc/
-├── catalog/
-│ ├── freedb.properties # MySQL connection config
-│ └── neondb.properties # PostgreSQL connection config
-├── config.properties # Trino coordinator config
-├── jvm.config
-└── log.properties
+    └── etc/
+        ├── catalog/
+        │   ├── freedb.properties       # MySQL connection config
+        │   └── neondb.properties       # PostgreSQL connection config
+        ├── config.properties           # Trino coordinator config
+        ├── jvm.config
+        └── log.properties
+
+```
 
 
 ---
